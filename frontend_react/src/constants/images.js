@@ -1,3 +1,4 @@
+//variables para las imagenes para enviarlos a un unico objeto
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
