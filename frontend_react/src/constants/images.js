@@ -26,6 +26,9 @@ import about04 from '../assets/about04.png';
 
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
+import profile from '../assets/profile.png';
+import logomanuel from '../assets/logo-manuel.png';
+
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -36,6 +39,8 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  logomanuel,
+  profile,
   email,
   mobile,
   api,

@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
       <nav className="app__navbar">
         <div className="app__navbar-logo">
-            <img src={images.logo} alt="logo"/>
+            <img src={images.logomanuel} alt="logomanuel"/>
         </div>
         <ul className="app__navbar-links">
          {['Home', 'Quien soy', 'Contacto', 'Trabajo', 'Habilidades', 'Testimonios'].map((item) =>(
@@ -21,7 +21,7 @@ const Navbar = () => {
             </li>
          ))} 
         </ul>
-        
+        {/*Boton Menu*/}
         <div className="app__navbar-menu">
           <HiMenuAlt4 onClick={() => setToggle(true)}/>
 
