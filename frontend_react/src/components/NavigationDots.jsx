@@ -1,5 +1,6 @@
 import React from 'react'
 
+//Dots de navegacion por secciones de la pagina wew
 const NavigationDots = ({ active }) => {
   return (
     <div className='app__navigation'>

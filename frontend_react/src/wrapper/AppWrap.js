@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavigationDots, SocialMedia } from '../components';
 
+//Pasando las variables para funcion de los objetos de al prioridad
 const AppWrap = (Component, idName, classNames) => function HOC(){
   return (
     <div id={idName} className={`app__container ${classNames}`}>
