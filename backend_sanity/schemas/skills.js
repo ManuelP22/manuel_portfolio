@@ -1,10 +1,10 @@
 export default{
-    name:'habilidades',
-    title:'Habilidades',
+    name:'skills',
+    title:'Skills',
     type: 'document',
     fields:[
         {
-            name:'nombre',
+            name:'name',
             title:'Nombre',
             type:'string'
         },
@@ -14,8 +14,8 @@ export default{
             type:'string'
         },
         {
-            name:'icono',
-            title:'Icono',
+            name:'icon',
+            title:'Icon',
             type: 'image',
             options: {
               hotspot: true,

@@ -1,16 +1,16 @@
 export default{
-    name:'experiencias',
-    title:'Experiencias',
+    name:'experiences',
+    title:'Experiences',
     type: 'document',
     fields:[
         {
-            name:'tiempo',
-            title:'Tiempo',
+            name:'year',
+            title:'Year',
             type:'string'
         },
         {
-            name:'trabajos',
-            title:'Trabajos',
+            name:'works',
+            title:'Works',
             type:'array',
             of:[{ type:'workExperience'}]
         },

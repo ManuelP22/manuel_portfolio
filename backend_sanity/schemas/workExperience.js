@@ -1,16 +1,15 @@
 export default {
     name:'workExperience',
-    title:'Practicas Laborales',
+    title:'Work Experience',
     type:'document',
     fields:[
-           {   
-               name:'nombre',
-               title:'Nombre',
+           {name:'name',
+               title:'name',
                type:'string'
             },
             {
-                name:'empresa',
-                title:'Empresa',
+                name:'company',
+                title:'Company',
                 type:'string'
             },
             {
