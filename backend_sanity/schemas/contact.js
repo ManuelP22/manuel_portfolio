@@ -1,11 +1,11 @@
 export default {
-    name:'contacto',
-    title:'Contacto',
+    name:'contact',
+    title:'Contact',
     type:'document',
     fields:[
         {
-            name:'nombre',
-            title:'Nombre',
+            name:'name',
+            title:'Name',
             type:'string'
         },
         {
@@ -14,8 +14,8 @@ export default {
             type:'string'
         },
         {
-            name:'mensaje',
-            title:'Mensaje',
+            name:'message',
+            title:'Message',
             type:'text'
         }
     ]
