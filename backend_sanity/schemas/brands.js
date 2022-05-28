@@ -1,6 +1,6 @@
 export default{
-    name:'marcas',
-    title:'Marcas',
+    name:'brands',
+    title:'Brands',
     type: 'document',
     fields:[
         {

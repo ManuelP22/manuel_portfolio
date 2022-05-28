@@ -1,16 +1,16 @@
 export default {
-    name:'testimonios',
-    title:'Testimonios',
+    name:'testimonials',
+    title:'Testimonials',
     type: 'document',
     fields:[
         { 
-            name:'nombre',
-            title:'Nombre',
+            name:'name',
+            title:'Name',
             type: 'string'
         },
         {
-            name:'empresa',
-            title:'Empresa',
+            name:'company',
+            title:'Company',
             type:'string'
         },
         {
