@@ -6,7 +6,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Skills.scss';
 
-const Skills = () => {
+const Habilidades = () => {
   const [experiences, setExperiences] = useState([]);
   const [skills, setSkills] = useState([]);
 
@@ -88,4 +88,4 @@ const Skills = () => {
   );
 };
 
-export default AppWrap(Skills, 'skills')
+export default AppWrap(Habilidades, 'Habilidades')

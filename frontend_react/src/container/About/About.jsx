@@ -5,7 +5,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
 import { urlFor, client } from '../../client';
 
-const About = () => {
+const Sobre = () => {
 //Llenar los datos de about desde el cliente "fetch query"
    const [abouts, setAbouts] = useState([]);
 
@@ -40,4 +40,4 @@ const About = () => {
   )
 }
 
-export default AppWrap(About, 'about');
+export default AppWrap(Sobre, 'Sobre mi');

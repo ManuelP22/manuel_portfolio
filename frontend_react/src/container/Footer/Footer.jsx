@@ -6,7 +6,7 @@ import { client } from '../../client'
 
 import './Footer.scss';
 
-const Footer = () => {
+const Contacto = () => {
   const [fromData, setFromData] = useState({name: '', email: '', message: ''});
   const [isFromSubmited, setIsFromSubmited] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -81,4 +81,4 @@ const Footer = () => {
   )
 }
 
-export default AppWrap(Footer, 'footer')
+export default AppWrap(Contacto, 'Contacto')

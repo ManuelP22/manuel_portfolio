@@ -7,7 +7,7 @@ import { urlFor, client } from '../../client'
 
 import './Work.scss';
 
-const Work = () => {
+const Trabajo = () => {
   const [activeFilter, setActiveFilter] = useState('Todo');
   const [animateCard, setAnimateCard] = useState({y: 0, opacity: 1 });
   const [works, setWorks] = useState([])
@@ -108,4 +108,4 @@ const Work = () => {
   )
 }
 
-export default AppWrap(Work, 'work');
+export default AppWrap(Trabajo, 'Trabajo');
