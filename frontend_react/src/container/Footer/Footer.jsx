@@ -43,7 +43,7 @@ const Contacto = () => {
 
     <div className="app__footer-cards">
       <div className="app__footer-card">
-      <img src={images.email} alt="email"/>
+      <img src={images.outlook} alt="email"/>
       <a href="mailto:manuelperezp22@hotmail.com" className="p-text">manuelperezp22@hotmail.com</a>
       </div>
       <div className="app__footer-card">
@@ -57,15 +57,15 @@ const Contacto = () => {
     ////////////////
     <div className="app__footer-form app__flex">
       <div className="app__flex">
-      <input className="p-text" type="text" placeholder="Su Nombre" name="name" value={name} onChange={handleChangeInput} />
+      <input className="p-text" type="text" placeholder="Nombre" name="name" value={name} onChange={handleChangeInput} />
       </div>
       <div className="app__flex">
-      <input className="p-text" type="email" placeholder="Su Email" name="email" value={email} onChange={handleChangeInput} />
+      <input className="p-text" type="email" placeholder="Email" name="email" value={email} onChange={handleChangeInput} />
       </div>
       <div>
         <textarea 
         className="p-text"
-        placeholder = "Su Mensaje"
+        placeholder = "Mensaje"
         value={message}
         name="message"
         onChange={handleChangeInput}

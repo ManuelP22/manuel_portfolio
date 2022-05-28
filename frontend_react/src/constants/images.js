@@ -28,6 +28,7 @@ import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 import profile from '../assets/profile.png';
 import logomanuel from '../assets/logo-manuel.png';
+import outlook from '../assets/outlook.png';
 
 
 import adidas from '../assets/adidas.png';
@@ -39,6 +40,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  outlook,
   logomanuel,
   profile,
   email,
