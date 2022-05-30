@@ -88,4 +88,8 @@ const Habilidades = () => {
   );
 };
 
-export default AppWrap(Habilidades, 'Habilidades')
+export default AppWrap(
+  MotionWrap(Habilidades, 'app__skills'),
+  'Habilidades',
+  'app__whitebg',
+);

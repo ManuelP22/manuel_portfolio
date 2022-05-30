@@ -71,4 +71,8 @@ const Testimonios = () => {
   )
 }
 
-export default AppWrap(Testimonios, 'Testimonios')
+export default AppWrap(
+  MotionWrap(Testimonios, 'app__testimonial'),
+  'Testimonios',
+  'app__primarybg',
+);

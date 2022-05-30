@@ -80,7 +80,7 @@
             padding: 0.95rem;
             border: none;
             border-radius: 7px;
-            background-color: #fff;
+            background-color: var(--primary-color);
 
             font-family: var(--font-base);
             color: var(--secondary-color);
@@ -102,16 +102,19 @@
         border-radius: 10px;
         border: none;
         background-color: var(--secondary-color);
-
+    
         font-weight: 500;
         color: var(--white-color);
         outline: none;
-        margin: 2rem 0 0;
+        margin: 2rem 0 0 0;
         font-family: var(--font-base);
+    
+        transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
         cursor: pointer;
-    }
-    @media screen and (max-width: 768px) {
-        width: 100%;
-        margin: 1rem 0;
-    }
+    
+        &:hover {
+          background-color: #2430af;
+        }
+      } 
 }
+

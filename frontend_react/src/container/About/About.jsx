@@ -40,4 +40,8 @@ const Sobre = () => {
   )
 }
 
-export default AppWrap(Sobre, 'Sobre mi');
+export default AppWrap(
+  MotionWrap(Sobre, 'app__about'),
+  'Sobre mi',
+  'app__whitebg',
+);

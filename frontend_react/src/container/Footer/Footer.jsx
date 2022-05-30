@@ -34,6 +34,7 @@ const Contacto = () => {
       setLoading(false);
       setIsFromSubmited(true);
     })
+
   }
 
   return (
@@ -60,7 +61,7 @@ const Contacto = () => {
       <input className="p-text" type="text" placeholder="Nombre" name="name" value={name} onChange={handleChangeInput} />
       </div>
       <div className="app__flex">
-      <input className="p-text" type="email" placeholder="Email" name="email" value={email} onChange={handleChangeInput} />
+      <input className="p-text" type="email" placeholder="Email (Obligatorio)" name="email" value={email} onChange={handleChangeInput} />
       </div>
       <div>
         <textarea 
@@ -71,7 +72,7 @@ const Contacto = () => {
         onChange={handleChangeInput}
         />
       </div>
-      <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Enviar Mensaje' : 'Enviando...'}</button>
+      <button type="button" className="p-text" disabled={!email} onClick={handleSubmit}>{!loading ? 'Enviar Mensaje' : 'Enviando...'}</button>
     </div>
     : <div>
       <h3 className="head-text">Gracias por contactar!</h3>
@@ -81,4 +82,9 @@ const Contacto = () => {
   )
 }
 
-export default AppWrap(Contacto, 'Contacto')
+
+export default AppWrap(
+  MotionWrap(Contacto, 'app__footer'),
+  'Contacto',
+  'app__whitebg',
+);
