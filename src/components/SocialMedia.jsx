@@ -1,6 +1,5 @@
 import React from 'react';
-import { BsLinkedin, BsInstagram } from 'react-icons/bs'
-import { FaFacebookF } from 'react-icons/fa'
+import { BsLinkedin, BsGithub } from 'react-icons/bs'
 const SocialMedia = () => {
   return (
     <div className="app__social">
@@ -9,11 +8,11 @@ const SocialMedia = () => {
             <BsLinkedin />
           </a>
         </div>
+        
         <div>
-        <BsInstagram />
-        </div>
-        <div>
-        <FaFacebookF />
+          <a href="https://github.com/ManuelP22" target="_blank" rel="noopener noreferrer">
+            <BsGithub />
+          </a>
         </div>
     </div>
   )
