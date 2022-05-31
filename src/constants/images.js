@@ -29,6 +29,8 @@ import logo from '../assets/logo.png';
 import profile from '../assets/profile.png';
 import logomanuel from '../assets/logo-manuel.png';
 import outlook from '../assets/outlook.png';
+import cv from '../assets/cv.png';
+import cvu from '../assets/cvu.png';
 
 
 import adidas from '../assets/adidas.png';
@@ -40,6 +42,8 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  cvu,
+  cv,
   outlook,
   logomanuel,
   profile,

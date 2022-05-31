@@ -51,6 +51,11 @@ const Contacto = () => {
       <img src={images.mobile} alt="mobile"/>
       <a href="tel:+1 (809) 481-3489" className="p-text">+1 (809) 481-3489</a>
       </div>
+      <div className="app__footer-card">
+      <img src={images.cvu} alt="cvu"/>
+      <a href="https://drive.google.com/file/d/1innAs93AKVMTvzmpVLHceHvSkcYM2DpI/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-text">Curriculum Vitae
+      </a>
+      </div>
     </div>
 
     {/*Confirmacion para saber si el mensaje fue enviado*/}
