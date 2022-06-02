@@ -53,7 +53,7 @@ const Contacto = () => {
       </div>
       <div className="app__footer-card">
       <img src={images.cvu} alt="cvu"/>
-      <a href="https://drive.google.com/file/d/1innAs93AKVMTvzmpVLHceHvSkcYM2DpI/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-text">Curriculum Vitae
+      <a href="https://drive.google.com/file/d/1mwT0emV_WGA3yxsZz0qJJkBiNgYLVsuy/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-text">Curriculum Vitae
       </a>
       </div>
     </div>
